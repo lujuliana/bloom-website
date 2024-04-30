@@ -432,7 +432,7 @@ p {
 }
 
 .sticky .navbar .navbar-nav .nav-item a {
-  color: #222;
+  color: #2D6A6E;
 }
 
 .sticky .navbar .navbar-nav .nav-item a::before {
@@ -440,7 +440,7 @@ p {
 }
 
 .sticky .navbar .navbar-toggler .toggler-icon {
-  background: #1D2A5D;
+  background: #2D6A6E;
 }
 
 .navbar {
@@ -535,7 +535,7 @@ p {
   .navbar-nav .nav-item a {
     display: inline-block;
     padding: 6px 10px;
-    color: #60698D;
+    color: #2D6A6E;
   }
 }
 
