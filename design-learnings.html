@@ -84,16 +84,19 @@
 							</p>
 
 							<h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Prototyping</h1>
-							<p class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
+							<p class="mb-5 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
                                 Armed with these insights, we moved into the prototyping stage. Our goal was to create a physical minimum viable product that could be tested with real users. We developed two simple paper prototypes that allowed roommates to list chores, assign them, and mark them as completed. In version 1, a round progress bar would indicate the user’s task completion rate. In version 2, a plant would grow to a height representing the user’s task completion rate. At first, we did not know which version would appeal to our users more. On one hand, version 1 is much straightforward and simple which aligns well with the busy nature of college students. However, version 2 since it is more fun and promotes greater collaboration since the garden is shared amongst roommates.
                             </p>
 							<div class="row justify-content-center d-flex align-items-center">
-								<div class="col-xl-4 col-lg-8 col-md-10">
+								<div class="col"><h3>Prototype 1</h3></div>
+								<div class="col"><h3>Prototype 2</h3></div>
+							</div>
+							<div class="row justify-content-center d-flex align-items-center">
+								<div class="col">
 									<div class="single-feature">
 										<div class="content">
-											<h3>Prototype 1</h3>
 											<img
-												src="assets/img/frames/roommates-frame.svg"
+												src="assets/img/design-learnings/prototype-1.png"
 												class="img-1 wow fadeInUp"
 												data-wow-delay=".1s"
 												style="max-width: 90%;"
@@ -101,12 +104,11 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-xl-4 col-lg-8 col-md-10">
+								<div class="col">
 									<div class="single-feature">
 										<div class="content">
-											<h3>Prototype 2</h3>
 											<img
-												src="assets/img/frames/roommates-frame.svg"
+												src="assets/img/design-learnings/prototype-2.png"
 												class="img-1 wow fadeInUp"
 												data-wow-delay=".1s"
 												style="max-width: 90%;"
@@ -122,40 +124,28 @@
 							</p>
 
 							<h1 class="mb-25 wow fadeInUp" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">Continued Iteration</h1>
-							<p class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
+							<p class="mb-5 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
                                 We progressed with our design by building a Figma prototype which took into account all the feedback we received from our paper prototype:
                             </p>
-							<div class="row justify-content-center d-flex align-items-center">
-								<div class="col-xl-4 col-lg-8 col-md-10">
-									<div class="single-feature">
-										<div class="content">
-											<img
-												src="assets/img/frames/roommates-frame.svg"
-												class="img-1 wow fadeInUp"
-												data-wow-delay=".1s"
-												style="max-width: 90%;"
-											/>
-										</div>
-									</div>
-								</div>
+							<div class="mb-5">
+								<img
+									src="assets/img/design-learnings/Original-Prototype.png"
+									class="img-1 wow fadeInUp"
+									data-wow-delay=".1s"
+									style="max-width: 90%;"
+								/>
 							</div>
-							<p class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
+							<p class="mb-5 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
                                 We incorporated all the core elements from our paper prototype —garden theme, scheduling tasks, marking/completing tasks, viewing progress— into a high fidelity mobile app design. In our heuristic evaluations, we learned important lessons regarding visibility, saliency, and simplicity. Evaluators A and B indicated that it was confusing to navigate from my tasks to all tasks since the navigation arrows had low visibility. Evaluator B also mentioned that “Total: 25%” was confusing because it’s unclear who the percentage refers to. This violated heuristic #2 (match between he system and the real world) and #4 (consistency and standards) so we changed the wording to read “Group: 25%.” Although a smaller issue, evaluator C did not like the “Schedule” page due to the white-on-black text and the calendar graphic. The prototype design decision violated heuristic #3 (aesthetic design) and VDP #3 (typography).
 								<br><br>Many lessons were learned from our evaluation that let us make changes almost immediately. We changed the colors on the schedule page to make it more readable; we changed the text to read “Group: 25” on the leaderboard; we replaced the calendar graphic with a more fitting one. Our final high fidelity prototype ended up looking like this:
                             </p>
-							<div class="row justify-content-center d-flex align-items-center">
-								<div class="col-xl-4 col-lg-8 col-md-10">
-									<div class="single-feature">
-										<div class="content">
-											<img
-												src="assets/img/frames/roommates-frame.svg"
-												class="img-1 wow fadeInUp"
-												data-wow-delay=".1s"
-												style="max-width: 90%;"
-											/>
-										</div>
-									</div>
-								</div>
+							<div class="mb-2">
+								<img
+									src="assets/img/design-learnings/revised-prototype.png"
+									class="img-1 wow fadeInUp"
+									data-wow-delay=".1s"
+									style="max-width: 90%;"
+								/>
 							</div>
 							<p class="mb-5 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
                                 Although we were all happy with this design, our journey was far from over. Throughout the next few weeks we spent countless hours building our design with react native and continued to refine and test it.
@@ -215,7 +205,7 @@
 									</div>
 								</div>
 							</div>
-							<p class="wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
+							<p class="mb-5 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp; text-align: left;">
 								As designers, we had to be nitpicky for our users. Although small changes took us hours at a time to design and implement, they were necessary for creating the best user experience possible. We found it useful to divide up our work into design and engineering teams so one person could create a design and another could code it. That boosted efficiency and helped us divide up our work. This seems to be a common practice in the tech industry and we now understand why.
 							</p>
 
